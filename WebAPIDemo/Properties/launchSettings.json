@@ -4,7 +4,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "https://webapidemo20220724221942.azurewebsites.net",
+      "applicationUrl": "http://localhost:7512",
       "sslPort": 44384
     }
   },
@@ -14,7 +14,7 @@
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "api/Users",
-      "applicationUrl": "https://webapidemo20220724221942.azurewebsites.net;https://webapidemo20220724221942.azurewebsites.net",
+      "applicationUrl": "https://localhost:7030;http://localhost:5030",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
