@@ -15,6 +15,8 @@ builder.Services.AddDbContext<azureacademyprojectContext>(opt =>
 
 var app = builder.Build();
 
+Console.WriteLine("Merhaba");
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
